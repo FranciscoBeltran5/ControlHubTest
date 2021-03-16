@@ -5,7 +5,7 @@
 <p>This is simple REST API that given an <em>n</em> integer bigger then zero, will respond with a number in the Fibonacci's series in <em>n</em>'s place. </p>
 
 ## Installation
-<p>To install this app please clone this repository and, after navigating to the containing folder, execute: <code>npm install</code>, this assuming you have npm already installed. If you don't have npm in your system please refer to this [link](https://www.npmjs.com/get-npm) </p>
+To install this app please clone this repository and, after navigating to the containing folder, execute: <code>npm install</code>, this assuming you have npm already installed. If you don't have npm in your system please refer to this [link](https://www.npmjs.com/get-npm)
 
 ## Running
 <p>To get this app running just execute <code>node index.js</code> in the terminal program of your OS.</p>
