@@ -11,8 +11,9 @@ To install this app please clone this repository and, after navigating to the co
 <p>To get this app running just execute <code>node index.js</code> in the terminal program of your OS.</p>
 
 ## Testing
-In order to test the app quickly you can this command in most UNIX based OS: <code>curl -X POST -H "Content-Type: application/json" -d '{"numero": "3"}'  http://localhost:3000/fibonacci</code>. Where <em>numero</em> represents the place in the Fibonacci's series where you want to get the value from.
-If you can't render or analize the response data you can see the result number in the console. A message similar to **Resultado: 1** should appear after the POST request is processed.
+In order to quickly test the app you can use this command in most UNIX based OS:
+<code>curl -X POST -H "Content-Type: application/json" -d '{"numero": "3"}'  http://localhost:3000/fibonacci</code>
+Where <em>numero</em> represents the place in the Fibonacci's series where you want to get the value from. If you can't render or analize the response data you can see the result number in the console. A message similar to **Resultado: 1** should appear after the POST request is processed.
 
 ## Future improvement
 <p>Currently this API hasn't been tested against several limit test cases. Here's a list of future improvements that can be made:
