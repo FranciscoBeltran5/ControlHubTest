@@ -29,5 +29,3 @@ app.post("/fibonacci", (req, res, next) => {
    }
    console.log('Resultado: ', n1)
 });
-
-// curl -X POST -H "Content-Type: application/json" -d '{"numero": "3"}'  http://localhost:3000/fibonacci
